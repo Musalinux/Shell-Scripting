@@ -1,0 +1,15 @@
+vi launch-rockets.sh 
+for mission in $(cat /tmp/assets/mission-names.txt)
+do 
+  create-and-launch-rocket $mission
+ done
+ 
+ chmod +x launch-rockets.sh
+ bash launch-rockets.sh
+ 
+ ### To print numbers from A to B
+
+for i in {31..40}
+do
+        echo $i
+done
