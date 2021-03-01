@@ -1,0 +1,11 @@
+vi check_greater.sh
+
+A=$1 B=$2
+if [ $1 -gt $2  ]
+then
+        echo "$1 is greater"
+else
+        echo "$2 is greater"
+:wq
+chmod +x check_greater.sh
+bash check_greater.sh 10 5
