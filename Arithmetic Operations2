@@ -1,0 +1,15 @@
+This below script takes any 2 numbers A and B as input
+vi calculations.sh
+A=$1
+B=$2
+echo "Sum is $(( A+B  )) "
+echo "Difference is $(( A-B )) "
+echo "Product is $(( A*B )) "
+echo "Quotient is $(( A / B))"
+
+//////////// Script for adding 2 numbers and giving output.
+vi calculate-price.sh
+A=$1 B=$2
+
+price=$(( $1*$2 ))
+echo "The total price for items is ${price} dollars"
