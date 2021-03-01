@@ -1,0 +1,8 @@
+vi check
+if [ -d "/home/bob/caleston" ]
+
+then
+        echo "Directory exists"
+elif
+        echo  "Directory not found"
+fi
