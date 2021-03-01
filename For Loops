@@ -9,7 +9,7 @@ do
  
  ### To print numbers from A to B
 
-for i in {31..40}
+for i in {31..40)
 do
-        echo $i
+  echo $i
 done
