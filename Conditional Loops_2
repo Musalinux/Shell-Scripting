@@ -1,4 +1,4 @@
-vi check
+vi check_dir.sh
 if [ -d "/home/bob/caleston" ]
 
 then
@@ -6,3 +6,6 @@ then
 elif
         echo  "Directory not found"
 fi
+:wq
+cat check_dir.sh                // to check contents before executing
+bash check_dir.sh
