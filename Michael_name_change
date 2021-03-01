@@ -1,0 +1,18 @@
+ls
+create-and-launch-rocket  lunar-mission  print-welcome-message.sh
+bob@caleston-lp10:~$ cat print-welcome-message.sh 
+user_name=Michael
+
+echo "Hi $USER_NAME, Welcome to xFusionCorp Industries. We and the rest of the management are glad to have you on board"
+bob@caleston-lp10:~$ chmod +x print-welcome-message.sh  
+bob@caleston-lp10:~$ bash print-welcome-message.sh 
+Hi , Welcome to xFusionCorp Industries. We and the rest of the management are glad to have you on board
+bob@caleston-lp10:~$ vi  print-welcome-message.sh 
+user_name=Michael
+
+echo "Hi $user_name, Welcome to xFusionCorp Industries. We and the rest of the management are glad to have you on board"
+
+bob@caleston-lp10:~$ chmod +x print-welcome-message.sh
+bob@caleston-lp10:~$ bash print-welcome-message.sh 
+Hi Michael, Welcome to xFusionCorp Industries. We and the rest of the management are glad to have you on board
+bob@caleston-lp10:~$ 
