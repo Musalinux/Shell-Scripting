@@ -31,3 +31,14 @@ fi
 chmod +x create-and-launch-rocket
 bash create-and-launch-rocket
 
+#printing numbers from 0 to given number
+cat print-numbers.sh 
+vi print-numbers.sh
+to_number=$1
+number=0
+while [ $number -lt $to_number ]
+  echo $(( number++ ))
+done
+
+bash print-numebrs.sh
+
