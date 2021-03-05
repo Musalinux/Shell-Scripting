@@ -1,0 +1,10 @@
+docker pull <image>
+docker run <image>
+docker rmi <Image ID> <Image Name>
+Docker --help
+docker rmi --help
+docker run
+docker stop
+dokcer rmi -f ubuntu #forcefully removes image
+docker labs <name>
+docker run -p 38282:8080 kodekloud/simple-webapp:blue # This runs the image simple web-app through port 38382 and with the tag- blue
